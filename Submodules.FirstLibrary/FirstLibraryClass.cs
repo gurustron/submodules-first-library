@@ -14,5 +14,9 @@ public class FirstLibraryClass
         Console.WriteLine($"{nameof(FirstLibrary)}:{nameof(FirstLibraryClass)} initialized with {initiMessage}!");
     }
 
-    public static string GetMessage() => initiMessage;
+    public static string GetMessage() => 
+        $"""
+        {initiMessage} 
+        Update 1
+        """;
 }
