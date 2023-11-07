@@ -18,5 +18,6 @@ public class FirstLibraryClass
         $"""
         {initiMessage} 
         Update 1
+        Update 2
         """;
 }
